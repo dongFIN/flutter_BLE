@@ -1,6 +1,14 @@
 # ble_test
 
-A new Flutter project.
+Flutter project: 可重複測量BLE裝置的訊號強弱(RSSI)
+
+使用套件：[flutter_blue](https://pub.dev/packages/flutter_blue)
+
+## 注意事項
+- minSdkVersion版本可能衝突
+    目前改法是將 build.gradle 的 minSdkVersion 更改為合適版本
+    
+- scanResults的結果可能無法重新，需更改原始碼
 
 ## Getting Started
 
@@ -14,3 +22,4 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
